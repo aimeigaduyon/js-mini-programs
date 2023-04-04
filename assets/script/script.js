@@ -19,10 +19,10 @@ function intChecker() {
 // Parity Checker
 
 function parChecker() {
-    let inputParValue = parseFloat(document.querySelector("#inputPar").value);
+    let inputParValue = document.querySelector("#inputPar").value;
     let outputParValue = document.querySelector("#outputPar");
 
-    if (inputParValue % 2 === 0) {
+    if (parseFloat(inputParValue) % 2 == 0) {
     outputParValue.innerHTML = "This is an even number.";
     } else if (inputParValue % 2 !== 0) {
     outputParValue.innerHTML = "This is an odd number.";
