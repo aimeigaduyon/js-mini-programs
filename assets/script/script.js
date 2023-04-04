@@ -44,4 +44,12 @@ function voterEligibility() {
     } else {
         outputVoterValue.innerHTML = "Sorry " + voterName + ", but you are not eligible to vote.";
     }
+
+    if (ageValue < 18 && residencyValue >= 18) {
+        outputVoterValue.innerHTML = "You must be at least 18 years of age to become eligible to vote.";
+    }
+
+    if (ageValue >=18 && residencyValue < 18 ) {
+        outputVoterValue.innerHTML = "You must be a resident for at least 1 year and 6 months to become eligible to vote."
+    }
 }
