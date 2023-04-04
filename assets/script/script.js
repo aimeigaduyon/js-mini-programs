@@ -11,7 +11,7 @@ function intChecker() {
     } else if (inputIntValue === 0) {
     outputIntValue.innerHTML = "This is neither a positive nor a negative integer.";
     } else {
-    outputIntValue.innerHTML = "Please enter a valid input."
+    outputIntValue.innerHTML = "Please enter a valid input.";
     }
 }
 
@@ -24,9 +24,11 @@ function parChecker() {
 
     if (inputParValue % 2 === 0) {
     outputParValue.innerHTML = "This is an even number.";
-  } else {
+    } else if (inputParValue % 2 !== 0) {
     outputParValue.innerHTML = "This is an odd number.";
-  }
+    } else {
+    outputParValue.innerHTML = "Please enter a valid input.";
+    }
 }
 
 
