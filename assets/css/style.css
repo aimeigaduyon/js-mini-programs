@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    background-color: #1b1919;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mini Programs */
+
+.mini-programs {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-programs a {
+    margin-top: 90px;
+}
+
+.mini-programs button {
+    width: 600px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+/* Integer Checker and Parity Checker */
+
+hr {
+    margin-top: 40px;
+}
+
+.int-section, .par-section, .voter-section {
+    background-color: #e5e8f1;
+    font-family: 'Quicksand', sans-serif;
+    width: 600px;
+    height: 400px;
+    margin: auto auto;
+    margin-top: 110px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.int-header, .par-header, .voter-header {
+    text-align: center;
+    font-size: 35px;
+    color: #1b1919;
+    margin-bottom: 20px;
+}
+
+.int-text, .par-text, .voter-text {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+#inputInt, #inputPar {
+    width: 50%;
+    height: 20px;
+    font-size: 24px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 0 5px #e5e8f1;
+    display: flex;
+    justify-content: center;
+}
+
+.int-btn, .par-btn, .voter-btn {
+    margin: 0 auto;
+    background-color: #1b1919;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+#outputInt, #outputPar {
+    text-align: center;
+    font-size: 24px;
+    color: #1b1919;
+    margin-top: 30px;
+}
+
+
+
+/* Voter's Eligibility */
+
+.voter-section {
+    height: 600px;
+    margin: 10px auto;
+}
+
+.voter-text {
+    font-size: 14px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#firstName, #last-name {
+    width: 30%;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px #e5e8f1;
+    margin-left: 10px; 
+}
+
+#firstName {
+    margin-left: 20px;
+}
+
+#birthdate, #age {
+    width: 30%;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px #e5e8f1;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#age {
+    margin-left: 50px;
+}
+
+#birthplace, #current-add {
+    width: 75%;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px #e5e8f1;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#birthplace {
+    margin-left: 25px;
+}
+
+#residency {
+    width: 41%;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px #e5e8f1;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.voter-btn {
+    font-size: 15px;
+    margin: 30px auto;
+}
+
+#outputVoter {
+    text-align: center;
+    font-size: 15px;
+    color: #1b1919;
+    margin-top: 20px;
+}

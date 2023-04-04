@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Voter's Eligibility</title>
+</head>
+
+<body>
+
+    <section class="voter-section">
+
+        <h1 class="voter-header">Am I eligible to vote?</h1>
+
+        <p class="voter-text">
+            This is only a quick check to see if you are eligible to vote. Please fill out the form completely and truthfully so
+            that we can determine whether or not you are eligible to vote.
+        </p>
+
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="firstName" name="first-name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name">
+       
+            <br>
+           
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" name="birthdate" id="birthdate">
+
+            <label for="age">Age:</label>
+            <input type="nunmber" id="age" name="age">
+            
+            <br>
+          
+            <label for="birthplace">Place of Birth:</label>
+            <input type="text" name="birthplace" id="birthplace" placeholder="Barangay, City/Municipality, Province">
+
+            <br>
+
+            <label for="current-add">Current Address:</label>
+            <input type="text" name="current-add" id="current-add" placeholder="Barangay, City/Municipality, Province">
+
+            <hr>
+
+            <label for="residency">How long have you been at your current address?</label>
+            <input type="text" name="residency" id="residency" placeholder="Enter in months">
+ 
+        </form>
+        
+        <button onclick="voterEligibility()" class="voter-btn">Submit</button>
+
+        <p id="outputVoter"></p>
+
+    </section>
+
+
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
